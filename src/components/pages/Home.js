@@ -4,13 +4,14 @@ import HeroSection from '../HeroSection'
 import Cards from '../Cards';
 
 
-function Home () {
+function Home() {
     return (
         <>
             <HeroSection />
             <Cards />
+            <Footer />
         </>
-    )
+    );
 }
 
 export default Home;
